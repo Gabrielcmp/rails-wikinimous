@@ -1,0 +1,5 @@
+<h1><%= @article.title %></h1>
+<%= render 'display' %>
+<%= link_to "Edit", edit_article_path(@article) %>
+<br>
+<%= link_to_delete(@article) %>
